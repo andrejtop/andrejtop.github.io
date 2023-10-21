@@ -280,6 +280,19 @@ body {
     object-fit: cover;
 }
 
+@media (max-width: 1200px) {
+    .home {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .home-sci {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
 /* KEYFRAMES ANIMATION */
 
 @keyframes slideTop {
